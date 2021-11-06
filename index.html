@@ -16,11 +16,11 @@
         <div class="menu-block uk-flex uk-flex-column">
             <div class="logo"><img src="./assets/icons/logo/main-logo.svg" alt=""></div>
             <ul class="uk-nav">
-                <li><a href="#">О СЕРВИСЕ</a></li>
-                <li><a href="#">ПРЕИМУЩЕСТВА</a></li>
-                <li><a href="#">НАШИ ТРЕНАЖЕРЫ</a></li>
-                <li><a href="#">ВОПРОС-ОТВЕТ</a></li>
-                <li><a href="#">КОНТАКТЫ</a></li>
+                <li><a href="#workinfo-block">О СЕРВИСЕ</a></li>
+                <li><a href="#subinfo-block">ПРЕИМУЩЕСТВА</a></li>
+                <li><a href="#ourtrenazhers-block">НАШИ ТРЕНАЖЕРЫ</a></li>
+                <li><a href="#questions-bloc">ВОПРОС-ОТВЕТ</a></li>
+                <li><a href="#testdrive-block">КОНТАКТЫ</a></li>
             </ul>
             <div class="links">
                 <a class="mail" href="mailto:info@moydevice.ru">info@moydevice.ru</a>
@@ -28,16 +28,25 @@
                 <a href="https://api.whatsapp.com/send/?phone=79858078734&text&app_absent=0" class="whatss">WhatsApp</a>
             </div>
             <div class="btn-block">
-                <a class="btn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#">Оформить подписку</a>
-                <a class="subbtn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#">Личный кабинет</a>
+                <a class="btn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#ourtrenazhers-block">Оформить подписку</a>
+                <a class="subbtn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="https://lk.moydevice.ru/?city=1023&device=1032&roistat_visit=609447&_ga=2.58361134.560561935.1636117611-1909723262.1635707077">Личный кабинет</a>
             </div>
         </div>
     </div>
 </div>
 
+        <div class="topmenu-block">
+    <div class="uk-container">
+        <div class="logo"><img src="./assets/icons/logo/main-logo.svg" alt=""></div>
+        <div class="links">
+            <a href="#ourtrenazhers-block" class="btn-id uk-flex uk-flex-center uk-flex-middle">получить тренажер</a>
+            <a href="tel:+74951910760" class="btn-tel uk-flex uk-flex-center uk-flex-middle"><img src="./assets/icons/icon/telephone-handle-silhouette.png" alt="">+7 (495) 191-07-60</a>
+        </div>
+        <button class="menu-btn uk-position-top-right uk-margin-top uk-margin-right uk-position-fixed" uk-toggle="target: #menu-btn" type="button"><span></span></button>
+    </div>
+</div>
         <div class="start-block">
     <div class="uk-container uk-flex uk-flex-column">
-        <div class="logo"><img src="./assets/icons/logo/main-logo.svg" alt=""></div>
         <div class="links">
             <div class="uk-flex uk-flex-center">
                 <a class="text-underline" href="#">#город</a>
@@ -54,7 +63,6 @@
             </div>
         </div>
     </div>
-    <button class="menu-btn uk-position-top-right uk-margin-top uk-margin-right" uk-toggle="target: #menu-btn" type="button"><span></span></button>
 </div>
         <div class="special-offer">
     <div class="uk-container uk-flex uk-flex-row uk-flex-center uk-flex-around">
@@ -66,11 +74,11 @@
             <div class="title"><span class="black-bg">Недорого попробовать!</span></div>
             <div class="subtitle uk-margin-top">Всего <span class="ye-bg">90 рублей в день.</span><br> Держи себя в форме даже дома
             </div>
-            <a href="#" class="btn uk-flex uk-flex-middle uk-flex-center uk-margin-top uk-text-uppercase">попробовать</a>
+            <a href="#" class="btn uk-flex uk-flex-middle uk-flex-center uk-margin-top uk-text-uppercase" uk-toggle="target: #choose-device">попробовать</a>
         </div>
     </div>
 </div>
-        <div class="workinfo-block uk-section">
+        <div class="workinfo-block uk-section" id="workinfo-block">
     <div class="uk-container">
         <img class="uk-margin-auto uk-display-block" src="./assets/icons/icon/workinfo/arrow_png.png" alt="arrow icon">
     </div>
@@ -128,11 +136,11 @@
     </div>
     <div class="uk-container-small uk-margin-auto uk-margin-large-top uk-width-4-5">
         <div class="uk-flex uk-flex-center">
-            <button class="btn uk-border-pill uk-margin-auto uk-text-uppercase">получить тренажер</button>
+            <button class="btn uk-border-pill uk-margin-auto uk-text-uppercase" uk-toggle="target: #choose-device" >получить тренажер</button>
         </div>
     </div>
 </div>
-        <div class="ourtrenazhers-block">
+        <div class="ourtrenazhers-block" id="ourtrenazhers-block">
     <div class="uk-container uk-flex uk-flex-column">
         <div class="ourtrenazhers-title uk-text-center">Наши тренажеры</div>
         <div class="ourtrenazhers-subtitle uk-text-center uk-margin-medium-top"><span class="ye-bg">Успей забронировать по летней цене!</span></div>
@@ -160,7 +168,7 @@
                     </div>
                     <div class="bottom-block uk-width-1-1">
                         <div class="btns-block-bottom uk-width-5-6 uk-margin-auto uk-flex uk-flex-row uk-flex-around">
-                            <a class="btn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#" style="width: 200px; height: 55px;">Выбрать тренажер</a>
+                            <a class="btn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#" style="width: 200px; height: 55px;" uk-toggle="target: #choose-device">Выбрать тренажер</a>
                             <a class="subbtn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#" style="width: 200px; height: 55px;" uk-toggle="target: #t-1-charact">Характеристики</a>
                         </div>
                     </div>
@@ -189,7 +197,7 @@
                     </div>
                     <div class="bottom-block uk-width-1-1">
                         <div class="btns-block-bottom uk-width-5-6 uk-margin-auto uk-flex uk-flex-row uk-flex-around">
-                            <a class="btn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#" style="width: 200px; height: 55px;">Выбрать тренажер</a>
+                            <a class="btn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#" style="width: 200px; height: 55px;" uk-toggle="target: #choose-device">Выбрать тренажер</a>
                             <a class="subbtn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#" style="width: 200px; height: 55px;" uk-toggle="target: #t-2-charact">Характеристики</a>
                         </div>
                     </div>
@@ -218,7 +226,7 @@
                     </div>
                     <div class="bottom-block uk-width-1-1">
                         <div class="btns-block-bottom uk-width-5-6 uk-margin-auto uk-flex uk-flex-row uk-flex-around">
-                            <a class="btn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#" style="width: 200px; height: 55px;">Выбрать тренажер</a>
+                            <a class="btn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#" style="width: 200px; height: 55px;" uk-toggle="target: #choose-device">Выбрать тренажер</a>
                             <a class="subbtn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#" style="width: 200px; height: 55px;" uk-toggle="target: #t-3-charact">Характеристики</a>
                         </div>
                     </div>
@@ -247,7 +255,7 @@
                     </div>
                     <div class="bottom-block uk-width-1-1">
                         <div class="btns-block-bottom uk-width-5-6 uk-margin-auto uk-flex uk-flex-row uk-flex-around">
-                            <a class="btn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#" style="width: 200px; height: 55px;">Выбрать тренажер</a>
+                            <a class="btn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#" style="width: 200px; height: 55px;" uk-toggle="target: #choose-device">Выбрать тренажер</a>
                             <a class="subbtn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#" style="width: 200px; height: 55px;" uk-toggle="target: #t-4-charact">Характеристики</a>
                         </div>
                     </div>
@@ -276,7 +284,7 @@
                     </div>
                     <div class="bottom-block uk-width-1-1">
                         <div class="btns-block-bottom uk-width-5-6 uk-margin-auto uk-flex uk-flex-row uk-flex-around">
-                            <a class="btn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#" style="width: 200px; height: 55px;">Выбрать тренажер</a>
+                            <a class="btn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#" style="width: 200px; height: 55px;" uk-toggle="target: #choose-device">Выбрать тренажер</a>
                             <a class="subbtn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#" style="width: 200px; height: 55px;" uk-toggle="target: #t-5-charact">Характеристики</a>
                         </div>
                     </div>
@@ -305,7 +313,7 @@
                     </div>
                     <div class="bottom-block uk-width-1-1">
                         <div class="btns-block-bottom uk-width-5-6 uk-margin-auto uk-flex uk-flex-row uk-flex-around">
-                            <a class="btn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#" style="width: 200px; height: 55px;">Выбрать тренажер</a>
+                            <a class="btn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#" style="width: 200px; height: 55px;" uk-toggle="target: #choose-device">Выбрать тренажер</a>
                             <a class="subbtn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#" style="width: 200px; height: 55px;" uk-toggle="target: #t-5-charact">Характеристики</a>
                         </div>
                     </div>
@@ -334,7 +342,7 @@
                     </div>
                     <div class="bottom-block uk-width-1-1">
                         <div class="btns-block-bottom uk-width-5-6 uk-margin-auto uk-flex uk-flex-row uk-flex-around">
-                            <a class="btn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#" style="width: 200px; height: 55px;">Выбрать тренажер</a>
+                            <a class="btn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#" style="width: 200px; height: 55px;" uk-toggle="target: #choose-device" >Выбрать тренажер</a>
                             <a class="subbtn uk-flex uk-flex-middle uk-flex-center uk-text-uppercase" href="#" style="width: 200px; height: 55px;">Характеристики</a>
                         </div>
                     </div>
@@ -662,8 +670,75 @@
             </div>
         </div>
     </div>
+    <div id="choose-device" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <div class="form-title">Оформить подписку</div>
+            <form action="#">
+                <div class="name-field"><input type="text" name="name-field" id="name-field" placeholder="Ваше имя"></div>
+                <div class="tel-field">
+                    <div class="select-country">
+                        <div class="choosen-country" uk-toggle="target: #country-list-block" >
+                            <img src="../assets/icons/countries/ru.png" alt="flag-img" class="choosen-country-flag-img">
+                            <img src="./assets/icons/icon/down-arrow.png" alt="arrow-icon" class="choosen-country-arrow-img">
+                        </div>
+                        <div class="country-list" id="country-list-block" hidden>
+                            <ul class="country-list-ul"></ul>
+                        </div>
+                    </div>
+                    <label for="telephone" class="label-4-tel">+7</label>
+                    <input type="tel" name="telephone" id="telephone-select" placeholder="Номер телефона">
+                </div>
+                <div class="choosedevice-field">
+                    <div class="choosedevice-field-title">Девайсы</div>
+                    <div class="select-block">
+                        <select name="samokat"> 
+                            <option value="Беговая дорожка Titanium One T40 SС (от 3 500 ₽/месяц)">Беговая дорожка Titanium One T40 SС (от 3 500 ₽/месяц)</option> 
+                            <option value="Эллиптический тренажер DFC Challenge E8018 / E8019 (от 3 500 ₽/месяц)">Эллиптический тренажер DFC Challenge E8018 / E8019 (от 3 500 ₽/месяц)</option> 
+                            <option value="Велотренажер Evo Fitness Vega (от 2 700 ₽/месяц)">Велотренажер Evo Fitness Vega (от 2 700 ₽/месяц)</option> 
+                            <option value="Беговая дорожка Titanium One T55 SС (от 3 900 ₽/месяц)">Беговая дорожка Titanium One T55 SС (от 3 900 ₽/месяц)</option> 
+                            <option value="Спин байк BH Fitness SB1.4 (от 3 900 ₽/месяц)">Спин байк BH Fitness SB1.4 (от 3 900 ₽/месяц)</option>
+                            <option value="Спин байк BH Fitness SB1.4 (от 4 300 ₽/месяц)">Спин байк BH Fitness SB1.4 (от 4 300 ₽/месяц)</option> 
+                            <option value="Гребной тренажер Titanium One R20 FF (от 3 500 ₽/месяц)">Гребной тренажер Titanium One R20 FF (от 3 500 ₽/месяц)</option> 
+                            <option value="Нужна консультация по выбору девайса (бесплатно)">Нужна консультация по выбору девайса (бесплатно)</option> 
+                        </select>
+                    </div>
+                </div>
+                <div class="promocode-field">
+                    <div class="promocode-field-title">Введите промокод (если есть)</div>
+                    <div class="input-block">
+                        <input type="text" name="promocode" id="promocode">
+                    </div>
+                </div>
+                <div class="deliveryoption-field">
+                    <div class="deliveryoption-field-title">Способ получения</div>
+                    <div class="select-block">
+                        <select name="sposob_polucheniya"> 
+                            <option value="Самовывоз (Бесплатно)">Самовывоз (Бесплатно)</option> 
+                            <option value="Доставка курьером (Бесплатно)">Доставка курьером (Бесплатно)</option> 
+                        </select>
+                    </div>
+                </div>
+                <div class="contact-field">
+                    <div class="contact-field-title">Удобный способ связи</div>
+                    <div class="select-block">
+                        <select name="sposobsvyasi"> 
+                            <option value="Звонок">Звонок</option> 
+                            <option value="WhatsApp">WhatsApp</option> 
+                        </select>
+                    </div>
+                </div>
+                <div class="submit">
+                    <button type="submit">Оформить</button>
+                </div>
+                <div class="policy-subtext-field">
+                    Нажимая кнопку "Оформить", вы соглашаетесь с <a href="#">политикой обработки персональных данных</a>.
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
-        <div class="ourservice-block">
+        <div class="ourservice-block" id="ourservice-block">
     <div class="uk-container uk-flex uk-flex-row uk-flex-around">
         <div class="uk-card">
             <div class="title">С нашим сервисом, ты получаешь не просто тренажер, а целый тренажерный зал у себя дома!</div>
@@ -685,7 +760,7 @@
         </div>
     </div>
 </div>
-        <div class="largebanner-block">
+        <div class="largebanner-block" id="largebanner-block">
     <div class="uk-container uk-flex uk-flex-column">
         <div class="largebanner-title">Ты всегда найдешь время на спорт</div>
         <div class="cards uk-flex uk-flex-row uk-flex-around">
@@ -771,7 +846,7 @@
         <div class="yellow-border"></div>
     </div>
 </div>
-        <div class="subinfo-block uk-section">
+        <div class="subinfo-block uk-section" id="subinfo-block">
     <h2 class="uk-text-lead uk-text-center uk-text-bold uk-margin-medium-bottom" style="font-size: 36px;">Почему подписка это удобно?</h2>
     <div class="table-container uk-container uk-padding-remove">
         <table class="uk-table">
@@ -787,7 +862,7 @@
                 <tr>
                     <td></td>
                     <td class="uk-flex uk-flex-center">
-                        <a class="uk-button uk-button-primary uk-border-pill uk-margin-auto uk-text-uppercase uk-text-bold">получить</a>
+                        <a class="uk-button uk-button-primary uk-border-pill uk-margin-auto uk-text-uppercase uk-text-bold" uk-toggle="target: #choose-device" >получить</a>
                     </td>
                     <td></td>
                     <td></td>
@@ -876,7 +951,7 @@
         </div>
     </div>
 </div>
-        <div class="testdrive-block">
+        <div class="testdrive-block" id="testdrive-block">
     <div class="uk-container uk-flex uk-flex-column">
         <div class="container uk-flex uk-flex-row uk-child-width-1-2@m uk-child-width-1-1 uk-margin-large-bottom">
             <div class="card uk-flex uk-flex-column">
@@ -928,7 +1003,7 @@
     <div class="deviceconsole-block"><img src="./assets/icons/device/kisspng-xbox-one-con.png" alt=""></div>
     <div class="devicetrainer-block"><img src="./assets/icons/device/photo.png" alt=""></div>
 </div>
-        <div class="ourprojects-block">
+        <div class="ourprojects-block" id="ourprojects-block">
     <div class="uk-container uk-flex uk-flex-column">
         <div class="ourprojects-title">
             Наши другие проекты
@@ -936,15 +1011,15 @@
         <div class="cards-block uk-flex uk-flex-row uk-flex-between">
             <div class="uk-card bg-1 uk-flex uk-flex-column">
                 <div class="title">Мой самокат</div>
-                <a href="#" class="btn hidden-btn uk-flex uk-flex-middle uk-flex-center">Подробнее</a>
+                <a href="https://www.moysamokat.ru/?roistat_visit=609447" class="btn hidden-btn uk-flex uk-flex-middle uk-flex-center">Подробнее</a>
             </div>
             <div class="uk-card bg-2 uk-flex uk-flex-column">
                 <div class="title">Мой велик</div>
-                <a href="#" class="btn hidden-btn uk-flex uk-flex-middle uk-flex-center">Подробнее</a>
+                <a href="https://www.moyvelik.ru/?roistat_visit=609447" class="btn hidden-btn uk-flex uk-flex-middle uk-flex-center">Подробнее</a>
             </div>
             <div class="uk-card bg-3 uk-flex uk-flex-column">
                 <div class="title">Моя консоль</div>
-                <a href="#" class="btn hidden-btn uk-flex uk-flex-middle uk-flex-center">Подробнее</a>
+                <a href="https://moyaconsol.ru/?roistat_visit=609447" class="btn hidden-btn uk-flex uk-flex-middle uk-flex-center">Подробнее</a>
             </div>
         </div>
     </div>
@@ -964,12 +1039,12 @@
         </div>
     </div>
 </div>
-        <div class="choosemytr-block">
+        <div class="choosemytr-block" id="choosemytr-block">
     <div class="uk-container uk-flex uk-flex-row">
         <div class="left-block">
             <div class="title">Выбирай <br> <span class="ye-cl">Мой тренажер</span></div>
             <div class="subtitle">Копи впечатления, а не вещи.</div>
-            <a href="#" class="btn uk-flex uk-flex-middle uk-flex-center uk-margin-top">ПОЛУЧИТЬ ТРЕНАЖЕР</a>
+            <a href="#" class="btn uk-flex uk-flex-middle uk-flex-center uk-margin-top" uk-toggle="target: #choose-device">ПОЛУЧИТЬ ТРЕНАЖЕР</a>
         </div>
         <div class="right-block">
             <div class="photo-bg"></div>
@@ -977,7 +1052,7 @@
         </div>
     </div>
 </div>
-        <div class="company-block">
+        <div class="company-block" id="company-block">
     <div class="uk-container uk-flex uk-flex-row uk-flex-between">
         <div class="title uk-flex uk-flex-middle">О НАС ПИШУТ В СМИ</div>
         <div class="company-1"><img src="./assets/icons/logo/forbes.png" alt=""></div>
@@ -986,7 +1061,7 @@
         <div class="company-4"><img src="../assets/icons/logo/menshealth.svg" alt=""></div>
     </div>
 </div>
-        <div class="questions-block uk-section">
+        <div class="questions-block uk-section" id="questions-block">
     <h2 class="uk-text-bold uk-text-lead uk-text-center uk-margin-large-top uk-margin-large-bottom q-title">
         Вопросы и ответы
     </h2>
@@ -1262,9 +1337,9 @@
                     </div>
                     <div class="links-block">
                         <div class="links">
-                            <a href="#"><img src="./assets/icons/icon/footer/instagram.svg" alt=""></a>
-                            <a href="#"><img src="./assets/icons/icon/footer/telegram.svg" alt=""></a>
-                            <a href="#"><img src="./assets/icons/icon/footer/whatsapp.svg" alt=""></a>
+                            <a href="https://www.instagram.com/moydevice/?roistat_visit=609447"><img src="./assets/icons/icon/footer/instagram.svg" alt=""></a>
+                            <a href="https://t.me/moysamokatbot?roistat_visit=609447"><img src="./assets/icons/icon/footer/telegram.svg" alt=""></a>
+                            <a href="https://api.whatsapp.com/send/?phone=%2B79854614241&text=%D0%95%D1%81%D1%82%D1%8C+%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81+%D0%BF%D0%BE+%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D0%BA%D0%B5+%22%D0%9C%D0%BE%D0%B9+%D1%82%D1%80%D0%B5%D0%BD%D0%B0%D0%B6%D0%B5%D1%80%22.+%D0%AF+%D0%B8%D0%B7+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D1%8B&app_absent=0&roistat_visit=609447"><img src="./assets/icons/icon/footer/whatsapp.svg" alt=""></a>
                         </div>
                         <div class="address">115114 г. Москва, 1-й <br> Кожевнический пер., д. 6, стр. 6</div>
                     </div>
